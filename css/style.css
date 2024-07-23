@@ -85,6 +85,9 @@ body {
 .text  h3{
   line-height: 1;
 }
+li{
+  list-style-type: none;
+}
 
 @media screen and (min-width:700px) {
   .fs-title-2{
@@ -97,6 +100,12 @@ body {
   .text span, h3 {
    text-align: center !important;
   }
+  .blog-entry  ul{
+    display: block !important;
+    justify-items:start !important;
+  }
+
+
 }
 
 
