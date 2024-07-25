@@ -101,7 +101,13 @@ li{
   }
 }
 
-
+.gap{
+  gap: 8px !important;
+}
+.auto-p{
+  padding: auto !important; 
+  width: 100% !important;
+}
 @media screen and (max-width:700px) {
   .text span, h3 {
    text-align: center !important;
