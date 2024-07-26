@@ -106,8 +106,19 @@ li{
 }
 .auto-p{
   padding: auto !important; 
-  width: 100% !important;
+  width: auto !important;
 }
+.auto-p-2{
+  padding: auto !important; 
+  width: 20% !important;
+
+}
+.auto-p-2{
+  padding: auto !important; 
+  width: 20% !important;
+
+}
+
 @media screen and (max-width:700px) {
   .text span, h3 {
    text-align: center !important;
@@ -8097,7 +8108,7 @@ textarea.form-control {
   font-size: 20px; }
 
 .ftco-section {
-  padding: 0 1.8em;
+  padding: 1.5rem 1.8em;
   position: relative; 
   margin: 0 !important;
 }
