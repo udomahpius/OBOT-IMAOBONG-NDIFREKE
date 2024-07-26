@@ -102,22 +102,26 @@
 	</div>
 </section>
 
-<!-- these -->
 
+
+<!-- these -->
 <section class="ftco-section mt-5">
 	<div class="container">
 		<div class="row justify-content-center mb-1 pb-2">
 			<div class="col-md-7 heading-section text-center ftco-animate">
-			  <h2 class="mb-4">JOURNAL ARTICLES</h2>
+			  <h2 class="mb-4">BOOK CHAPTERS</h2>
 			 
 			</div>
 		  </div>
- 		<div class="row html-journal">		
+ 		<div class="row html-book" >
+					
 
 					
 	</div>
 	</div>
 </section>
+
+
 
 
 
@@ -417,10 +421,10 @@
 			</div>
 		</div>
 	</section>
+	
+	
 		
 </a>
-
-
 <footer class="ftco-footer ftco-bg-dark ftco-section">
 	<div class="container px-md-5">
 	  <div class="row mb-5">
@@ -507,255 +511,135 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-  <script>
-	
-    const journals  =[
+  
+ <script>
+	 
+	 const book =[
       {
             id: 1,
-            title: `Udofia E. P. & Etim, I. A. (2009) e-Library:`,
-            body:` Implication and Challenges on User Patronage in the
-21st Century. African Journal of Education and Information Management Vol. 10 (Special ed.).`,
+            title: `Udofia, E. P. & Etim, I. A. (2010).`,
+            body:` Bibliotherapy as a Panacea for Value Re-orientation of Nigerian
+Youths. In Etim, F. E. (Ed.) Beyond Academic Prowess: A Festschrift in Honour of Chief Ernest
+James Etim (1933-2000), pp. 277-289. Uyo: Abaam Publishing Co.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
         },
-        {
+		{
             id: 2,
-            title: `Udofia, E. P., Etim, I. A. & Ukpanah, M. (2009).`,
-            body:`  Holland’s Personality Typology, The Librarian and
-Readers’ Functionalism. Journal of Research in Information and Education (JRIE) Vol. 8 & 9(1):
-1-12.`,
+            title: `Etim, I. A., Inyang, I. J. &Effiong, A. E. (2014).`,
+            body:` Health Information Literacy (HIL) and Control of
+Students’ Psychopathological Problems: The Librarian in Partnership. In Afolabi M. &Ushie, J.
+A. (Eds.) Harvest from the Gown, Vol 2 (A Festschrift in Honour of Professor Comfort M. Ekpo),
+Pp. 291-300. Uyo: University of Uyo.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
         },
-        {
+		{
             id: 3,
-            title: `Akwang, N. E. & Etim, I. A. (2010).`,
-            body:` Quality Assurance Mechanisms and Information Services
-Delivery in University Libraries. African Journal of Education and information Management
-(AJEIMA). Vol. 11(1& 2): 103-111.`,
+            title: `Etim, I. A. (2017).`,
+            body:` Signage as Conduit for Quality Services Delivery in Academic Libraries. In
+Etim, F. E., U. O. Udoh & Udofia, B. P. (Eds.). Akwa Ibom State Library and Information
+Services: Antecedents, Perspectives & Prospects. Nigerian Library Association, Akwa Ibom
+State Chapter. Pp. 324-334.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
         },
-        {
+		{
             id: 4,
-            title: `Emem Udofia, Ekwere Akpan & ImaObong Etim (2010).`,
-            body:` Internet Utilisation and Frustration:
-Graduate Students’ Experience in South-South Zone, Nigeria. In: Sanjay K. Sharma & EduInam
-(Eds.). International Journal of Chemical, Environmental and Pharmaceutical Research, Vol.
-1(3): 179-186. (Offshore).`,
+            title: `Obot, I. N., Ph.D, Effiong, A. E., & Asuquo, B. E. (2019).`,
+            body:` Digital Signage Media in University
+Libraries as Catalyst for National Unity and Security. In Eboro, U. E. &Enang, U. B.
+(Eds.).Trending Technologies in Library and Information Science. Pp 222-235.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
         },
-        {
+		{
             id: 5,
-            title: `Udofia, E. P. & Etim, I. A. (2011).`,
-            body:` The Librarian in the Communication Process: School Library
-Utilisation in Early Childcare. Organization Mondiala pour l‘Education Prescolaire (OMEP)
-Journal. Vol. 1(1).`,
+            title: `Obot, I. N., PhD and Akwang, N. E, PhD (2020).`,
+            body:` The Nexus Between Web Technologies and
+Library Services: A Panacea for Achieving Sustainable Development Goals in Nigeria. InAdias,
+T. C, Ibegwam, A. F., Udofot, I. M. & Hamilton, D. O. (Eds.) Information Management Agenda
+2030: Perspectives of Sustainable Development Goals. (A Festchrift in Honour of Professor
+Felicia Eduwem Etim at 60).Pp 235-248.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
         },
-        {
+		{
             id: 6,
-            title: `Etim, I. A. & Udofia, E. P. (Ph. D) (2011).`,
-            body:` Service Orientation and Librarians’ Choice of Library
-Profession as a Career in Tertiary Institutions in Akwa Thom and Cross River States
-ofNigeria.Nigerian Journal of Library, Archival and Information Science (NJLAIS). Vol. 1(12):
-11-16.`,
+            title: ` Obot, I. N., PhD & Umoh, M. O. Esq. Ph D (2020).`,
+            body:` Digital Signaging for Information
+Dissemination in Nigerian Libraries: A Vehicle for Achieving Sustainable Development Goals8
+(SDGs). InAdias, T. C, Ibegwain, A. F., Udofot, I. M. & Hamilton, D. O. (Eds.)Information
+Management Agenda 2030: Perspectives of Sustainable Development Goals.(AFestchrzft in
+Honour of Professor Felicia Eduwem Etim at 60).Pp 486-496.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
         },
-        {
+		{
             id: 7,
-            title: `I. A. Etim, E. P. Udofla (Ph.D) & N. E. Akwang (2011).`,
-            body:` Accessibility of Information Resources for
-the Realisation of the Millennium Development Goal (MDG) on Nigerian Education.Journal of
-Education. Vol. 4 (1):114-125.`,
+            title: `Emem P. Udofia, PhD and ImaObong N. Obot, Ph.D (2021).`,
+            body:`Information Networking Imperative
+and Women Librarians’ Job Efficiency in Federal University Libraries in South-South Nigeria.
+In Okon, U. A. & Hanson, R. (Eds.) Sustainable Innovations in Stem Development: Challenges
+and the Way Forward. INWES_ARN (International Network of Women Engineers and Scientists
+African Regional Network -http:www.inwesarn.org). Electronic Book of Readings - Volume 1.
+Pp 1-12.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
-             },
-        {
+        },
+		{
             id: 8,
-            title: `Udofia, E. P. & Etim, I. A. (2011).`,
-            body:` Public Recognition and Librarians’ Choice of Library Profession
-as a Career. Tincity Journal of Library, Archival and Information Science (TJOLAIS). Vol.1 (2):
-47- 50.`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-             },
-             {
-                  id: 9,
-                  title: `Afolabi, M. & Etim, I. A. (2012). `,
-                  body:` Interest and Librarians’ Choice of Library Profession as a Career in
-Tertiary Institutions in AkwaIbom and Cross River States, Nigeria.Nigerian Library Link.Vol. 1
-& 2.`,
-                  download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-      
-              },
-        {
-            id:10,
-            title: `Udofia, E. P., Etim, I. A., & Shabi, I. N. (2013).`,
-            body:` Information Technology as a Tool for Empowering
-Nigerian Women for Leadership.Proceedings of the Regional Conference of the International
-Network of Women Engineers & Scientists (INWES), New Delhi, India. Pp 119-126. (Offshore).`,
+            title: `Emem P. Udofia, PhD and ImaObong N. Obot. Ph.D (2021).`,
+            body:`School Library Personnel. Udofia, E.
+P. (Ed.) Information Services and the School Library Media Centre. Pp. 72-82.Uyo: Inela
+Venture and Publishers Ltd.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
         },
-        {
+		{
+            id: 9,
+            title: `Obot, I. N., Ph.D and Umoh, M. O. Esq. Ph.D (2021).`,
+            body:` Enjoying the School Library Media Centre
+through Information and Communication Technology. In Udofia, B. P. (Ed.) Information
+Services and the School Library Media Centre. Pp. 72-82. Uyo: Inela Venture and Publishers Ltd.`,
+            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
+
+        },
+		{
+            id: 10,
+            title: `Obot, I. N. (2021).`,
+            body:` Digital Signage Media in Contemporary Library Services. In Nwachukwu, V. N.
+and Ogwo, U. (Eds.). Essentials of Information and Communication Technologies in Libraries:
+A Book of Readings. Pp. 332 - 340.`,
+            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
+
+        },
+		{
             id: 11,
-            title: `Etim, I. A. (2013).`,
-            body:` Nature of Work and Librarians’ Choice of Library Profession in Tertiary
-Institutions. The information Technologist: an International Journal of Library and
-Communication. Vol 10(1).`,
+            title: `Imaobong N. Obot, Ima-M. P. Usoro, Fiat M. Uzoegbu (2021)`,
+            body:` Inclusive Library and Information
+Services to Patrons Vulnerable to Mental Health Disorder. In Eboro E. Umoren, Uduak U. Enang
+and Mercy E. Ukpanah (Eds.). Information Service Delivery for the Grassroots and Vulnerable.
+Pp 151.`,
             download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
         },
-        {
-            id: 12,
-            title: `Etim, I. A., Baba, M. S., Misau, Y. A. & Moses, 0. (2013).`,
-            body:` Libraries for All: Advancing Library
-Services for the Disadvantaged in the Global Information Age. African Library Sentinel, Vol., 2
-(2).`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
 
-        },
-        {
-            id: 13,
-            title: `Okon, E. F, Inyang, I, J., and Etim, I. A. (2015).`,
-            body:`  Marketing of web based library resources in
-                   Nigerian Universities. Library Philosophy and Practice (e-journal).Paper 1263.
-                     <a href="https://digitalcommons.unl.edu/libphilprac/1263">(Offshore)</a>`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 14,
-            title: `Bamgboshe, O. J. & Etim, I. A. (2015).`,
-            body:` Accessing Government Information in Africa through theRight to Know the Role of the Library. 
-			Paper presented at IFLA World Library InformationConference.<a href="http://creativecommons.org/licenses/by/3.O/.">(Offshore)</a> `,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 15,
-            title: `Udofia, E. P. & Etim, I. A. (2015).`,
-            body:`  Harnessing, Managing and Disseminating Ibibio Oral Literature:
-Implication for the Librarian in the 21 Century. Journal of Library and Information Technology
-Trends. 1(1): 86-99.`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 16,
-            title: `Obot, I. N., Akwang, N. B. & Okoro, C. P. (2018).`,
-            body:` Remuneration and Choice Librarianship as a
-career.Information Impact: Journal of Information and Knowledge Management. Vol. 9 (3).
-DOI: 10.4314/iijikm.v9i3.13`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 17,
-            title: `Obot, I. N., Bamgbose, O. J. & Okoro, C. P. (2018).`,
-            body:` Education and training of library and
-information professionals for national integration and development. Information Impact: Journal
-of Information and Knowledge Management. Vol. 9 (4).https://www.ajol.info`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 18,
-            title: `Obot, I. N., Uzoegbu, F. M., Okon, E. E. & Okoro, C. P. (2019).`,
-            body:` Education and Librarians’ Choice
-of Library Profession as a Career in Tertiary Institutions. World Atlas Journal of Library and
-Information Science.Vol. 3 (1). (Offshore)`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 19,
-            title: `Ottu, I. F. A., Ebong, M. D., Ukpanah, M. & Etim, I. A. (2019).`,
-            body:` Survey of Drug Use and Crime in
-Nigerian Libraries: A Study. of Public and Academic Libraries in Akwa Ibom State. Journal of
-Library and Information Sciences. 7(1): 98- 105. DOT: 10.15640/Jlis.V7nlalO (Offshore).`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 20,
-            title: `Obot, I. N., Ph D, Asuquo, B. E. & Effiong, A. B. (2020). `,
-            body:`Students’ Industrial Work Experience
-Scheme (SIWES) and Skill Acquisition of Library and Information Science (LIS) Students in
-University of Uyo. World Atlas Journal of Library and Information Science, Vol. 4 (2).
-https://www.glohalacademicstar.com (Offshore)`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 21,
-            title: `Obot, I. N., Bantai, R. C. & Jonah, B. A. (2021). `,
-            body:`The Library Profession in Nigeria. World Atlas
-Journal of Library and Information Science, Vol. 5 (1) :21-
-30.https://www.globalacademicstar.com (Offshore)`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 22,
-            title: `Obot, I. N., Okorie, U. U., Udofia, I. E. & Uzoegbu, F. M. (2022).`,
-            body:` Whole person mentoring for
-career and professional development of Library and Information Science (LIS) students in
-University of Uyo, Nigeria.Universal Journal of Library and Information Science, Vol. 3 (1) :
-86-97. (Offshore)`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 23,
-            title: `Imaobong N. Obot, Ph D (2022).`,
-            body:` Students Industrial Work Experience Scheme (SIWES) for
-Library and Information Science (LIS) Graduate Employment and Employability. Dept. of
-Library and Information Science, Faculty of Education, University of Nigeria, Nsukka. 2nd
-International Conference Reunion e-Book of Abstracts, Pg 69.`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 24,
-            title: `D. E. Aduba, I. N. Obot, & E. E. Baro (2022).`,
-            body:` A comparative study of information literacy skills
-among students of library and information science and computer science in Nigerian Universities.
-Niger Delta Journal of Library and Information Science, Vol 3 (1) : 1 - 15
-https://ndijlis.fuotuoke.edu.ng.`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
-        {
-            id: 25,
-            title: `Nse Emmanuel Akwang, Inemesit Udom Udoh and Imaobong Ndifreke Obot (2024).`,
-            body:` Assessment
-of intervention programmes and technological innovations for library growth in Public
-Universities in Nigeria. Asian Journal of Education and Social Studies, 50 (7) : 627 – 639. DOI:
-10.9734/ajess/2024/v50i71493.`,
-            download: `<p><a href="#" download="" class="btn btn-primary p-3 px-xl-4 py-xl-3">Download</a></p>`,  
-
-        },
    ]
    
 
 
 
-// publications journals section
-let journalHtml = document.querySelector('.html-journal');
-const journalContainer= () => {
-    
-    let displayjournalItem = ''
-    journals.map((journalItem) => {
-        const { title, body, download } = journalItem;
-      displayjournalItem += `
-                                
 
-					<div class="col-md-4 mb-3 product-cover">
+// publications books section
+
+const bookContainer = () => {
+    let bookHtml = document.querySelector('.html-book');
+    let displayBookItem = ''
+    book.map((bookItem) => {
+        const { title, body, download } = bookItem;
+      displayBookItem += `
+                   <div class="col-md-4 mb-3 product-cover">
 							<div class="text text-2  mt-3 box-shadow p-3">
 						  <h3 class="mb-4"><a href="#" class="fs-title"> ${title}</a></h3>
 						  <p class="mb-4 fs-text text-title">${body}</p>
@@ -765,33 +649,22 @@ const journalContainer= () => {
 						</div>
 						</div>
 					</div>
-						
-					
        
   `
-        journalHtml.innerHTML = displayjournalItem;
+        bookHtml.innerHTML = displayBookItem;
     })
     
 }
-journalContainer()
-
-
-
-// search bar
-
-
-
-
-
+bookContainer()
 
 let searchInput = document.getElementById('searchInput');
-let falseProduct = false
+		    let falseProduct = false
         // search bar
         searchInput.addEventListener('keyup', () =>{
 			
 
             let filterKey = searchInput.value.toLowerCase();
-            let productContainer = journalHtml.querySelectorAll(".product-cover");
+            let productContainer = bookHtml.querySelectorAll(".product-cover");
 			console.log(productContainer)
             productContainer.forEach((removeProduct) =>{
                 let productTitle = removeProduct.querySelector(".text-title")
@@ -820,14 +693,6 @@ let falseProduct = false
         })
 
 
-
-
-
-
-
-
-  </script>
-
-    
+ </script>
   </body>
 </html>
